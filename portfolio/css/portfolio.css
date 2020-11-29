@@ -1,0 +1,153 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --portfolio-bg-color: #f5f4fa;
+  --portfolio-button-active-color: #ffffff;
+  --container-bg-color: #ffffff;
+  --background-text-color: #2f303a;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-accent: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.webstudio-link {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.span-studio {
+  color: var(--primary-text-color);
+}
+
+.nav-list a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: var(--accent-color);
+}
+
+.info-list-contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.info-list-contacts a:hover,
+.info-list-contacts a:focus {
+  color: var(--accent-color);
+}
+
+.portfolio {
+  border-radius: 4px;
+}
+
+.portfolio-link {
+  background: var(--portfolio-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+  background: var(--accent-color);
+  color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.container li {
+  background: var(--container-bg-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-color);
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.footer-bg {
+  background: var(--background-text-color);
+}
+
+.footer-bg a:hover,
+.footer-bg a:focus {
+  color: var(--accent-color);
+}
+
+.footer-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-accent);
+}
+
+.footer-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: var(--footer-text-color);
+}
