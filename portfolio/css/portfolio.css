@@ -35,7 +35,7 @@ p {
 }
 
 img {
-  display: flex;
+  display: block;
 }
 
 .list {
@@ -123,7 +123,7 @@ img {
 
 .info-list-contacts {
   display: flex;
-  margin-left: auto;
+  margin: 0 auto;
   padding-inline-start: 0px;
 }
 
@@ -197,10 +197,12 @@ img {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin: -20px;
+  margin: -17px;
 }
 
 .projects .item {
+  width: 370px;
+  display: block;
   margin: 15px;
 }
 
